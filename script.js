@@ -18,7 +18,7 @@ function scrollToSection(id) {
 }
 
 /* ---- TYPEWRITER ---- */
-const roles = ['DevOps Engineer', 'SCCM & Intune Specialist', 'MERN Stack Developer',];
+const roles = ['MERN Stack Developer', 'DevOps Engineer', 'SCCM & Intune Specialist'];
 let ri = 0, ci = 0, del = false;
 const tw = document.getElementById('tw');
 function type() {
