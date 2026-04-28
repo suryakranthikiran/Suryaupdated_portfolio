@@ -39,8 +39,8 @@ document.querySelectorAll('.reveal,.reveal-l,.reveal-r').forEach(el => obs.obser
 
 /* ---- SKILLS DATA ---- */
 const skillCats = [
-  { title: 'Cloud & Infrastructure', icon: '☁', color: '#00d4ff', skills: [{ n: 'Azure DevOps', l: 85 }, { n: 'Microsoft Azure', l: 80 }, { n: 'AWS (EC2)', l: 70 }, { n: 'SCCM/MECM', l: 92 }] },
-  { title: 'Scripting & Dev', icon: '⚡', color: '#7c3aed', skills: [{ n: 'PowerShell', l: 88 }, { n: 'Bash/Shell Scripting', l: 82 }, { n: 'JavaScript', l: 70 }, { n: 'SQL', l: 72 }] },
+  { title: 'Cloud & Infrastructure', icon: '☁', color: '#00d4ff', skills: [{ n: 'Azure DevOps', l: 85 }, { n: 'Microsoft Azure', l: 80 }, { n: 'AWS (EC2)', l: 70 }, { n: 'SCCM/MECM', l: 92 }, { n: 'Intune', l: 92 }] },
+  { title: 'Scripting & Dev', icon: '⚡', color: '#7c3aed', skills: [{ n: 'PowerShell', l: 88 }, { n: 'Bash/Shell Scripting', l: 82 }, { n: 'JavaScript', l: 78 }, { n: 'ReactJS', l: 84 }, { n: 'React Native', l: 72 },{ n: 'NodeJs', l: 75 }, { n: 'SQL', l: 72 }] },
   { title: 'DevOps & ITSM', icon: '🔧', color: '#f59e0b', skills: [{ n: 'Microsoft Intune', l: 88 }, { n: 'ServiceNow', l: 85 }, { n: 'Active Directory', l: 92 }, { n: 'Jira', l: 80 }] },
   { title: 'Systems & OS', icon: '🖥', color: '#10b981', skills: [{ n: 'Windows Admin', l: 95 }, { n: 'Linux/Unix', l: 78 }, { n: 'macOS Admin', l: 75 }, { n: 'VMware', l: 70 }] },
 ];
