@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Surya Kranthi Kiran | DevOps Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- PARTICLES -->
+<div id="particles"></div>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="logo" onclick="window.scrollTo({top:0,behavior:'smooth'})">SKK</div>
+  <div class="nav-links">
+    <button class="nav-link" onclick="scrollToSection('about')">About</button>
+    <button class="nav-link" onclick="scrollToSection('experience')">Experience</button>
+    <button class="nav-link" onclick="scrollToSection('skills')">Skills</button>
+    <button class="nav-link" onclick="scrollToSection('projects')">Projects</button>
+    <button class="nav-link" onclick="scrollToSection('education')">Education</button>
+    <button class="nav-link" onclick="scrollToSection('certifications')">Certifications</button>
+    <button class="nav-link" onclick="scrollToSection('contact')">Contact</button>
+    <a class="hire-btn" href="mailto:kranthikiran833@gmail.com">Hire Me</a>
+  </div>
+</nav>
+
+<!-- HERO / ABOUT -->
+<section id="about">
+  <div class="orb1"></div>
+  <div class="orb2"></div>
+  <div class="grid-bg"></div>
+  <div class="hero-content">
+    <div class="greeting"><span class="greeting-line"></span>Hello, World! I'm</div>
+    <h1 class="hero-name">
+      <span class="name-first">Surya Kranthi</span>
+      <span class="name-last">Kiran</span>
+    </h1>
+    <div class="typewriter">&lt;&nbsp;<span class="tw-text" id="tw"></span><span class="tw-cursor">|</span>&nbsp;/&gt;</div>
+    <p class="hero-desc">
+      DevOps-focused IT professional with <span>5+ years</span> of experience in
+      End User Computing, cloud automation, and infrastructure management.
+      Currently an <span class="hl">Associate Consultant at Infosys</span>.
+    </p>
+    <div class="hero-btns">
+      <a class="btn-primary" href="https://www.linkedin.com/in/suryakranthikiran" target="_blank">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 6a2 2 0 100-4 2 2 0 000 4z"/></svg>
+        LinkedIn
+      </a>
+      <a class="btn-outline" href="https://github.com/suryakranthikiran" target="_blank">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.341-3.369-1.341-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.579.688.481C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+        GitHub
+      </a>
+      <a class="btn-outline" href="https://leetcode.com/u/Suryakranthikiran/" target="_blank">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 7.5L20 11l-3.5 3.5"/><path d="M20 11H9"/><path d="M12 4.5L6.5 10a2.12 2.12 0 000 3L12 18.5"/></svg>
+        LeetCode
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div><div class="stat-num">5+</div><div class="stat-label">Years Experience</div></div>
+      <div><div class="stat-num">2</div><div class="stat-label">Companies</div></div>
+      <div><div class="stat-num">10+</div><div class="stat-label">Technologies</div></div>
+      <div><div class="stat-num">∞</div><div class="stat-label">Scripts Written</div></div>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <span class="scroll-label">SCROLL</span>
+    <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+  </div>
+</section>
+
+<div class="divider" style="background:linear-gradient(90deg,transparent,rgba(0,212,255,.18),transparent)"></div>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="exp-wrap">
+    <div class="reveal" style="text-align:center;margin-bottom:72px">
+      <div class="section-tag">02. EXPERIENCE</div>
+      <h2 class="section-title">Career <span style="background:linear-gradient(135deg,#00d4ff,#7c3aed);-webkit-background-clip:text;-webkit-text-fill-color:transparent">Journey</span></h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-line"></div>
+
+      <!-- Card 1 -->
+      <div style="position:relative">
+        <div class="exp-dot" style="top:32px;background:#00d4ff;box-shadow:0 0 20px #00d4ff"></div>
+        <div class="exp-card exp-card-left reveal-l d1">
+          <div class="exp-top-bar" style="background:linear-gradient(90deg,#00d4ff,transparent)"></div>
+          <div class="current-badge"><span class="live-dot"></span>CURRENT</div>
+          <div class="exp-role">Associate Consultant</div>
+          <div class="exp-meta">
+            <span class="exp-company" style="color:#00d4ff">Infosys</span>
+            <span class="exp-sep">•</span>
+            <span class="exp-period">July 2025 – Present</span>
+          </div>
+          <div class="exp-loc">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Hyderabad, Telangana
+          </div>
+          <ul class="exp-bullets">
+            <li><span style="color:#00d4ff"></span>Driving DevOps transformation and CI/CD pipeline optimization for enterprise clients</li>
+            <li><span style="color:#00d4ff"></span>Managing cloud infrastructure across Azure and AWS environments</li>
+            <li><span style="color:#00d4ff"></span>Developing automation scripts and infrastructure-as-code solutions</li>
+            <li><span style="color:#00d4ff"></span>Collaborating with cross-functional teams on scalable deployments</li>
+          </ul>
+          <div class="exp-tags">
+            <span class="tag" style="background:rgba(0,212,255,.08);color:#00d4ff;border:1px solid rgba(0,212,255,.2)">DevOps</span>
+            <span class="tag" style="background:rgba(0,212,255,.08);color:#00d4ff;border:1px solid rgba(0,212,255,.2)">Cloud</span>
+            <span class="tag" style="background:rgba(0,212,255,.08);color:#00d4ff;border:1px solid rgba(0,212,255,.2)">Automation</span>
+            <span class="tag" style="background:rgba(0,212,255,.08);color:#00d4ff;border:1px solid rgba(0,212,255,.2)">CI/CD</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div style="position:relative">
+        <div class="exp-dot" style="top:32px;background:#7c3aed;box-shadow:0 0 20px #7c3aed"></div>
+        <div class="exp-card exp-card-right reveal-r d2">
+          <div class="exp-top-bar" style="background:linear-gradient(90deg,#7c3aed,transparent)"></div>
+          <div class="exp-role">Analyst II – Software Engineer</div>
+          <div class="exp-meta">
+            <span class="exp-company" style="color:#7c3aed">DXC Technology</span>
+            <span class="exp-sep">•</span>
+            <span class="exp-period">Oct 2023 – Apr 2024</span>
+          </div>
+          <div class="exp-loc">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Bengaluru, Karnataka
+          </div>
+          <ul class="exp-bullets">
+            <li><span style="color:#7c3aed"></span>Promoted to Analyst II managing high-priority infrastructure incidents</li>
+            <li><span style="color:#7c3aed"></span>Led SCCM application packaging &amp; Microsoft Intune MDM deployments</li>
+            <li><span style="color:#7c3aed"></span>Patch management across Windows and macOS enterprise environments</li>
+            <li><span style="color:#7c3aed"></span>Coordinating with Application Owners for comprehensive software testing</li>
+          </ul>
+          <div class="exp-tags">
+            <span class="tag" style="background:rgba(124,58,237,.08);color:#7c3aed;border:1px solid rgba(124,58,237,.2)">SCCM</span>
+            <span class="tag" style="background:rgba(124,58,237,.08);color:#7c3aed;border:1px solid rgba(124,58,237,.2)">Intune</span>
+            <span class="tag" style="background:rgba(124,58,237,.08);color:#7c3aed;border:1px solid rgba(124,58,237,.2)">Patch Mgmt</span>
+            <span class="tag" style="background:rgba(124,58,237,.08);color:#7c3aed;border:1px solid rgba(124,58,237,.2)">OSD</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div style="position:relative">
+        <div class="exp-dot" style="top:32px;background:#f59e0b;box-shadow:0 0 20px #f59e0b"></div>
+        <div class="exp-card exp-card-left reveal-l d1">
+          <div class="exp-top-bar" style="background:linear-gradient(90deg,#f59e0b,transparent)"></div>
+          <div class="exp-role">Associate Professional Software Engineer</div>
+          <div class="exp-meta">
+            <span class="exp-company" style="color:#f59e0b">DXC Technology</span>
+            <span class="exp-sep">•</span>
+            <span class="exp-period">Sep 2021 – Oct 2023</span>
+          </div>
+          <div class="exp-loc">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Bengaluru, Karnataka
+          </div>
+          <ul class="exp-bullets">
+            <li><span style="color:#f59e0b"></span>End-user software/application support under ITIL incident management</li>
+            <li><span style="color:#f59e0b"></span>Asset management &amp; SLA-driven high-security issue resolution</li>
+            <li><span style="color:#f59e0b"></span>Windows 7/8/10 installation, configuration &amp; admin-level management</li>
+            <li><span style="color:#f59e0b"></span>Remote desktop support via SCCM Remote Console and AD management</li>
+            <li><span style="color:#f59e0b"></span>Software installation &amp; troubleshooting per organisation guidelines</li>
+          </ul>
+          <div class="exp-tags">
+            <span class="tag" style="background:rgba(245,158,11,.08);color:#f59e0b;border:1px solid rgba(245,158,11,.2)">Active Directory</span>
+            <span class="tag" style="background:rgba(245,158,11,.08);color:#f59e0b;border:1px solid rgba(245,158,11,.2)">ServiceNow</span>
+            <span class="tag" style="background:rgba(245,158,11,.08);color:#f59e0b;border:1px solid rgba(245,158,11,.2)">ITIL</span>
+            <span class="tag" style="background:rgba(245,158,11,.08);color:#f59e0b;border:1px solid rgba(245,158,11,.2)">VMware</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider" style="background:linear-gradient(90deg,transparent,rgba(124,58,237,.18),transparent)"></div>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="skills-wrap">
+    <div class="reveal" style="text-align:center;margin-bottom:72px">
+      <div class="section-tag">03. SKILLS</div>
+      <h2 class="section-title">Tech <span style="background:linear-gradient(135deg,#7c3aed,#00d4ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent">Arsenal</span></h2>
+    </div>
+    <div class="skills-grid" id="skillsGrid">
+      <!-- Skill cards injected by JS -->
+    </div>
+    <div class="badges-section reveal">
+      <div class="badges-title">Technologies &amp; Tools</div>
+      <div class="badges-wrap" id="badgesWrap"></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider" style="background:linear-gradient(90deg,transparent,rgba(0,212,255,.12),transparent)"></div>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="proj-wrap">
+    <div class="reveal" style="text-align:center;margin-bottom:72px">
+      <div class="section-tag">04. PROJECTS</div>
+      <h2 class="section-title">My <span style="background:linear-gradient(135deg,#00d4ff,#10b981);-webkit-background-clip:text;-webkit-text-fill-color:transparent">Projects</span></h2>
+    </div>
+    <div class="proj-grid">
+
+      <!-- CWC_APP -->
+      <div class="proj-card reveal d1">
+        <div class="proj-top-bar" style="background:linear-gradient(90deg,#00d4ff,#7c3aed)"></div>
+        <div class="proj-header">
+          <div class="proj-icon" style="background:rgba(0,212,255,.1);border:1px solid rgba(0,212,255,.25)">📱</div>
+          <div class="proj-links">
+            <a href="https://github.com/suryakranthikiran/CWC_APP" target="_blank" class="proj-link" title="View on GitHub">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.341-3.369-1.341-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.579.688.481C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="proj-name">CWC App</div>
+        <div class="proj-desc">A full-featured church mobile app built with React Native (Expo). Supports Sunday service info, worship activities, prayer form with email integration, and event management.</div>
+        <div class="proj-tags">
+          <span class="proj-tag" style="color:#00d4ff;border-color:rgba(0,212,255,.3)">TypeScript</span>
+          <span class="proj-tag" style="color:#7c3aed;border-color:rgba(124,58,237,.3)">React Native</span>
+          <span class="proj-tag" style="color:#10b981;border-color:rgba(16,185,129,.3)">Expo</span>
+        </div>
+      </div>
+
+      <!-- NextFlicks AI -->
+      <div class="proj-card reveal d2">
+        <div class="proj-top-bar" style="background:linear-gradient(90deg,#ef4444,#f59e0b)"></div>
+        <div class="proj-header">
+          <div class="proj-icon" style="background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.25)">🎬</div>
+          <div class="proj-links">
+            <a href="https://github.com/suryakranthikiran/NextFlicks-AI-" target="_blank" class="proj-link" title="View on GitHub">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.341-3.369-1.341-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.579.688.481C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="proj-name">Netflicks AI</div>
+        <div class="proj-desc">AI-powered Netflix clone with Gemini API for smart movie suggestions. Features Firebase auth, Redux state management, TMDB integration, trailer playback, and multi-language support.</div>
+        <div class="proj-tags">
+          <span class="proj-tag" style="color:#f59e0b;border-color:rgba(245,158,11,.3)">React</span>
+          <span class="proj-tag" style="color:#ef4444;border-color:rgba(239,68,68,.3)">Firebase</span>
+          <span class="proj-tag" style="color:#00d4ff;border-color:rgba(0,212,255,.3)">Gemini API</span>
+          <span class="proj-tag" style="color:#10b981;border-color:rgba(16,185,129,.3)">Redux</span>
+        </div>
+      </div>
+
+      <!-- CineTix -->
+      <div class="proj-card reveal d3">
+        <div class="proj-top-bar" style="background:linear-gradient(90deg,#7c3aed,#10b981)"></div>
+        <div class="proj-header">
+          <div class="proj-icon" style="background:rgba(124,58,237,.1);border:1px solid rgba(124,58,237,.25)">🎟️</div>
+          <div class="proj-links">
+            <a href="https://github.com/suryakranthikiran/CineTix" target="_blank" class="proj-link" title="View on GitHub">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.341-3.369-1.341-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.579.688.481C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="proj-name">CineTix</div>
+        <div class="proj-desc">Full-stack movie ticket booking platform with a React frontend and Node.js/Express backend. Enables users to browse movies, select seats, and book tickets seamlessly.</div>
+        <div class="proj-tags">
+          <span class="proj-tag" style="color:#7c3aed;border-color:rgba(124,58,237,.3)">React</span>
+          <span class="proj-tag" style="color:#10b981;border-color:rgba(16,185,129,.3)">Node.js</span>
+          <span class="proj-tag" style="color:#f59e0b;border-color:rgba(245,158,11,.3)">Express</span>
+          <span class="proj-tag" style="color:#00d4ff;border-color:rgba(0,212,255,.3)">MongoDB</span>
+        </div>
+      </div>
+
+      <!-- TechAlliance -->
+      <div class="proj-card reveal d4">
+        <div class="proj-top-bar" style="background:linear-gradient(90deg,#f59e0b,#ef4444)"></div>
+        <div class="proj-header">
+          <div class="proj-icon" style="background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.25)">🤝</div>
+          <div class="proj-links">
+            <a href="https://github.com/suryakranthikiran/TechAlliance_project" target="_blank" class="proj-link" title="View on GitHub">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.341-3.369-1.341-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.579.688.481C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="proj-name">TechAlliance</div>
+        <div class="proj-desc">Developer networking platform — a professional matchmaking app for developers. Build profile, swipe & connect with fellow devs, built with a full MERN stack architecture.</div>
+        <div class="proj-tags">
+          <span class="proj-tag" style="color:#f59e0b;border-color:rgba(245,158,11,.3)">React</span>
+          <span class="proj-tag" style="color:#10b981;border-color:rgba(16,185,129,.3)">Node.js</span>
+          <span class="proj-tag" style="color:#ef4444;border-color:rgba(239,68,68,.3)">MongoDB</span>
+          <span class="proj-tag" style="color:#00d4ff;border-color:rgba(0,212,255,.3)">Express</span>
+        </div>
+      </div>
+
+      <!-- Omni Food -->
+      <div class="proj-card reveal d5">
+        <div class="proj-top-bar" style="background:linear-gradient(90deg,#10b981,#00d4ff)"></div>
+        <div class="proj-header">
+          <div class="proj-icon" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.25)">🥗</div>
+          <div class="proj-links">
+            <a href="https://github.com/suryakranthikiran/Omni_Food_Project" target="_blank" class="proj-link" title="View on GitHub">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.341-3.369-1.341-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.579.688.481C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="proj-name">Omni Food</div>
+        <div class="proj-desc">Responsive food delivery landing page with smooth animations, sticky navigation, and mobile-first design. Built with pure HTML, CSS, and JavaScript as a showcase of frontend skills.</div>
+        <div class="proj-tags">
+          <span class="proj-tag" style="color:#10b981;border-color:rgba(16,185,129,.3)">HTML</span>
+          <span class="proj-tag" style="color:#00d4ff;border-color:rgba(0,212,255,.3)">CSS</span>
+          <span class="proj-tag" style="color:#f59e0b;border-color:rgba(245,158,11,.3)">JavaScript</span>
+        </div>
+      </div>
+
+    </div>
+    <div class="proj-cta reveal">
+      <a class="btn-outline" href="https://github.com/suryakranthikiran" target="_blank">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.341-3.369-1.341-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.579.688.481C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+        View All Repositories
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="divider" style="background:linear-gradient(90deg,transparent,rgba(245,158,11,.18),transparent)"></div>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="edu-wrap">
+    <div class="reveal" style="text-align:center;margin-bottom:72px">
+      <div class="section-tag">05. EDUCATION</div>
+      <h2 class="section-title">Academic <span style="background:linear-gradient(135deg,#f59e0b,#ef4444);-webkit-background-clip:text;-webkit-text-fill-color:transparent">Foundation</span></h2>
+    </div>
+    <div class="edu-card reveal">
+      <div class="edu-orb1"></div>
+      <div class="edu-orb2"></div>
+      <div class="edu-icon">🎓</div>
+      <div class="edu-degree">Bachelor of Technology</div>
+      <div class="edu-major">Computer Science &amp; Engineering</div>
+      <div class="edu-college">Aditya Engineering College, Surampalem, Andhra Pradesh</div>
+      <div class="edu-year">2017 — 2021</div>
+      <div class="edu-note">Graduated with a strong foundation in computer science, data structures, and algorithms. This academic background empowers a problem-solving mindset applied across DevOps and cloud engineering roles.</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider" style="background:linear-gradient(90deg,transparent,rgba(0,212,255,.15),transparent)"></div>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="cert-wrap">
+    <div class="reveal" style="text-align:center;margin-bottom:72px">
+      <div class="section-tag">06. CERTIFICATIONS</div>
+      <h2 class="section-title">Professional <span style="background:linear-gradient(135deg,#00d4ff,#7c3aed);-webkit-background-clip:text;-webkit-text-fill-color:transparent">Certifications</span></h2>
+    </div>
+    <div class="cert-grid">
+
+      <!-- AZ-900 -->
+      <div class="cert-card reveal d1">
+        <div class="cert-top-bar" style="background:linear-gradient(90deg,#00a4ef,#7c3aed)"></div>
+        <div class="cert-header">
+          <div class="cert-ms-logo">
+            <svg viewBox="0 0 23 23" width="36" height="36" xmlns="http://www.w3.org/2000/svg"><path fill="#f25022" d="M0 0h11v11H0z"/><path fill="#00a4ef" d="M12 0h11v11H12z"/><path fill="#7fba00" d="M0 12h11v11H0z"/><path fill="#ffb900" d="M12 12h11v11H12z"/></svg>
+          </div>
+          <div class="cert-badge-label">VERIFIED</div>
+        </div>
+        <div class="cert-name">Microsoft Certified</div>
+        <div class="cert-title">Azure Fundamentals</div>
+        <div class="cert-code">AZ-900</div>
+        <p class="cert-desc">Demonstrates foundational knowledge of cloud concepts, Azure core services, security, privacy, compliance, and Azure pricing &amp; support.</p>
+        <div class="cert-footer">
+          <div class="cert-issuer">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Issued by Microsoft
+          </div>
+          <a class="cert-verify-btn" href="https://learn.microsoft.com/en-us/users/tamarapillisuryakranthikiran-1375/credentials/certification/azure-fundamentals?tab=credentials-tab" target="_blank">
+            Verify
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+          </a>
+        </div>
+      </div>
+      <!-- M365 Fundamentals -->
+
+      <div class="cert-card reveal d1">
+        <div class="cert-top-bar" style="background:linear-gradient(90deg,#00a4ef,#7c3aed)"></div>
+        <div class="cert-header">
+          <div class="cert-ms-logo">
+            <svg viewBox="0 0 23 23" width="36" height="36" xmlns="http://www.w3.org/2000/svg"><path fill="#f25022" d="M0 0h11v11H0z"/><path fill="#00a4ef" d="M12 0h11v11H12z"/><path fill="#7fba00" d="M0 12h11v11H0z"/><path fill="#ffb900" d="M12 12h11v11H12z"/></svg>
+          </div>
+          <div class="cert-badge-label">VERIFIED</div>
+        </div>
+        <div class="cert-name">Microsoft Certified</div>
+        <div class="cert-title">Microsoft 365 Fundamentals</div>
+        <div class="cert-code">M365</div>
+        <p class="cert-desc">Demonstrates foundational knowledge of cloud concepts, Microsoft 365 apps and services, security, compliance, privacy, and trust, along with Microsoft 365 pricing, licensing,
+ &amp; support.</p>
+        <div class="cert-footer">
+          <div class="cert-issuer">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Issued by Microsoft
+          </div>
+          <a class="cert-verify-btn" href="https://learn.microsoft.com/en-us/users/tamarapillisuryakranthikiran-1375/credentials/certification/microsoft-365-fundamentals?tab=credentials-tab" target="_blank">
+            Verify
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Namaste React -->
+      <div class="cert-card reveal d2">
+        <div class="cert-top-bar" style="background:linear-gradient(90deg,#ef4444,#f59e0b)"></div>
+        <div class="cert-header">
+          <div class="cert-provider-logo" style="color:#f59e0b;background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.25)">Namaste Dev</div>
+          <div class="cert-badge-label" style="color:#f59e0b;border-color:rgba(245,158,11,.3);background:rgba(245,158,11,.1)">VERIFIED</div>
+        </div>
+        <div class="cert-name">NamasteDev Certified</div>
+        <div class="cert-title">Namaste React</div>
+        <div class="cert-code">React</div>
+        <p class="cert-desc">Certificate of completion for Namaste React, covering modern React development fundamentals including component architecture, hooks, state management, and production-ready frontend practices.</p>
+        <div class="cert-footer">
+          <div class="cert-issuer">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Issued by NamasteDev
+          </div>
+          <a class="cert-verify-btn" style="color:#f59e0b;border-color:rgba(245,158,11,.35);background:rgba(245,158,11,.1)" href="https://namastedev.com/tskranthikiran/certificates/namaste-react" target="_blank">
+            Verify
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Namaste Javascript -->
+
+      <div class="cert-card reveal d2">
+        <div class="cert-top-bar" style="background:linear-gradient(90deg,#ef4444,#f59e0b)"></div>
+        <div class="cert-header">
+          <div class="cert-provider-logo" style="color:#f59e0b;background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.25)">Namaste Dev</div>
+          <div class="cert-badge-label" style="color:#f59e0b;border-color:rgba(245,158,11,.3);background:rgba(245,158,11,.1)">VERIFIED</div>
+        </div>
+        <div class="cert-name">NamasteDev Certified</div>
+        <div class="cert-title">Namaste Javascript</div>
+        <div class="cert-code">Javascript</div>
+        <p class="cert-desc">Certificate of completion for Namaste Javascript, covering modern Javascript development fundamentals including ES6 features, asynchronous programming, DOM manipulation, and production-ready frontend practices.</p>
+        <div class="cert-footer">
+          <div class="cert-issuer">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Issued by NamasteDev
+          </div>
+          <a class="cert-verify-btn" style="color:#f59e0b;border-color:rgba(245,158,11,.35);background:rgba(245,158,11,.1)" href="https://namastedev.com/tskranthikiran/certificates/namaste-javascript" target="_blank">
+            Verify
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- DSA Certificate -->
+
+      <div class="cert-card reveal d3">
+        <div class="cert-top-bar" style="background:linear-gradient(90deg,#10b981,#00d4ff)"></div>
+        <div class="cert-header">
+          <div class="cert-provider-logo" style="color:#10b981;background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.25)">Scaler</div>
+          <div class="cert-badge-label" style="color:#10b981;border-color:rgba(16,185,129,.3);background:rgba(16,185,129,.1)">VERIFIED</div>
+        </div>
+        <div class="cert-name">Scaler Certified</div>
+        <div class="cert-title">Data Structures and Algorithms</div>
+        <div class="cert-code">DSA</div>
+        <p class="cert-desc">Certificate recognizing completion of Data Structures and Algorithms coursework, including core problem-solving patterns, algorithmic thinking, and coding fundamentals.</p>
+        <div class="cert-footer">
+          <div class="cert-issuer">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Issued by Scaler
+          </div>
+          <a class="cert-verify-btn" style="color:#10b981;border-color:rgba(16,185,129,.35);background:rgba(16,185,129,.1)" href="https://moonshot-assets.s3.us-west-2.amazonaws.com/generated/d8f17b6272064be4ad192b0aaeea39feabf0ced55da18770bc1f3f190cb74503?AWSAccessKeyId=ASIAY7MGLG6ZBTOLAFDW&amp;Expires=1777296989&amp;Signature=1eqjdAwWmxnwu6vuq7K8mH8DV4g%3D&amp;x-amz-security-token=IQoJb3JpZ2luX2VjEPv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDZMjkonMnH3aZq0qZ%2FUztjUP9SX0G2jx%2F4fj7YUxbeXAIhANCUgnX1vGDKPBMFqs6NWjFAfEuFEsMN1VBcsssPpB%2FaKoAECMT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMNjE3MTQ2NDMxNDEwIgwUjeEXwPxc3J7Fil8q1AM4tzGETUTfjyWzRaod8U5vQpWmra1n8w%2FiNpEMgxWRd0X%2BJ6TGpoX8UU%2BCLgj2tdY6lhYlzCzSBNaLN%2FmB%2BtEQBf6iK17%2FVZDks9A5lP2HXNvqZgqODKzMsw0D7NZfcZ9SC7PFtG6HaHhtXW6Cl91Nny%2B9ErgomvF5eM6L6qooVtRJzg6E%2Fad6IIlyHS07hvyJDF%2F5DxcTzyzZkvNdn5luMnHKy%2FNUMtX26JW6hJadK%2BiZrKUtxut61MNVJ1WMJawUDTJdGF8s47i%2Ff9b2n60JB9ArCM9z956AZSck6GGmSud9XhPn1oifO%2BlUJ0rRdjDTCh72csmGvzrY4U%2FOnvj9KFuOs%2Bqy7eNYADyAyPoQ3oA03Je8X6%2FGJpLiE%2BhTo8eSZ7XZNFnxTP0juvYvxR0fJuU6rxbBPrszcKFHGYN1vJRpliZM%2BiI8H7dO%2BtWX9UPqSgJ4ro4sUo2MfPHkeG90Z%2F41WMxe5c4XG%2Fk2lC03%2BE3kX%2FwIv3cn0ZlFT0VdTZ3Aj4YNJ2JefsrCCNoQcmJPyGHTZNph2cWok6EG2MnBlt%2Fngc%2BEIxiExiFOEirEruqaef9n1pNPdJTAD0%2FmNnPkXYlavpLhn8QXAYzcapWsbqj%2Bv9Mws%2Fm8zwY6pAHlM874Lfx7lrc%2Bha9L2kHnddKHIRMMnJs%2F3iPAsb6a2XwAwWe3dqwGMB5sniAZG7feotKVTdKN0R1HiHiXM%2FsHy4t7JrZNDtw3%2BL5i1oC4W7WQfqeaE%2B1yftWmEGw1voJmz8H8ADfvRDkJNEVu8BaXL%2BXmNglz8M3z4eu8OidKknkj1%2FZ7%2FSxCzUj7I3n8suLFUdDO0pUQptcyCTg4VtObhRY1vA%3D%3D" target="_blank">
+            Verify
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Database certificate -->
+
+      <div class="cert-card reveal d3">
+        <div class="cert-top-bar" style="background:linear-gradient(90deg,#10b981,#00d4ff)"></div>
+        <div class="cert-header">
+          <div class="cert-provider-logo" style="color:#10b981;background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.25)">Scaler</div>
+          <div class="cert-badge-label" style="color:#10b981;border-color:rgba(16,185,129,.3);background:rgba(16,185,129,.1)">VERIFIED</div>
+        </div>
+        <div class="cert-name">Scaler Certified</div>
+        <div class="cert-title">Database & SQL</div>
+        <div class="cert-code">DBMS</div>
+        <p class="cert-desc">Certificate recognizing completion of Database and SQL coursework, including core database concepts, SQL querying, and data management fundamentals.</p>
+        <div class="cert-footer">
+          <div class="cert-issuer">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Issued by Scaler
+          </div>
+          <a class="cert-verify-btn" style="color:#10b981;border-color:rgba(16,185,129,.35);background:rgba(16,185,129,.1)" href="https://moonshot-assets.s3.us-west-2.amazonaws.com/generated/c90d300d79bc243e95cb2bff5b7ff41845824208e72e94687aca202bf8a64302?AWSAccessKeyId=ASIAY7MGLG6ZJXEALM6J&Expires=1777296989&Signature=kg8jaLzh7lmveoxKHBPOQCdBcjc%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCGJIeGT4OiKA9A4%2FfML7z%2BDkhR%2F3IHZnDSkBaYlI%2FcJwIgPSGpYqDW4ajuj0N4x8%2BvrRa8SEPZ0eCa%2FDJ142kAdwoqgAQIxf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgw2MTcxNDY0MzE0MTAiDI6xIQ9rdlMcXDhcDyrUA03p8gdcbNOMt1djO7oICv5EOMaaE8VnTwTy5cGAdfnbzBcW4wBD7ucBLQzYeRKSePsYbHCWoHehBfFIWA8rKy0akR1%2BVddg51WkrpIWPpyGZpyacgAI8c9%2Bfx%2FB80qzEH76Be8B2CaabLzimAohqgsTQm6nkCGghsF4bBPZ2w3wKKhEjiRAXhz7%2BoJm9M5SEAle40fODckZUZ3%2BYsaWCVQ0jJ7f1IfEoIj6VR25OD3ERqgdDBjgltT8ZiTi8Ofzwp46Aua80LfW2emo37hyNr11cmPz%2BuFUS2e13v6EvvkJK%2B%2Bu7eKRR81hTHWHH0gPPZa3j66BEek%2B9Sf9riPAmIZgioxlgsJ81DidNtOQa8G4Cy2N6u08WfX%2Bj8DQjWa4TM1%2Bkzo5eJTgeyY0w8RHwaSc1MJAunVjJESjj0tv25J6LVeW%2B8t0No41TFUoA9kVY3Ht6g%2Fk9m5fI49fRshxuwWcClGeGNEunjE2F9%2FH8JiGVCcKcxJtMYiQRUVQsSJTFOhIw3PC%2FB%2FdddlBu8Dgv7wgAT5VysvxMxAO20BJqnHN2PsYwpZfRhPR042PnnJigBW1rlKsConhBazdiES%2F1n3wuBbOSdwTuKtQfricoBZkGeU7lTC5k73PBjqlAbZUlUN7d3%2Fh%2F8sQnZSpkFLJo7%2FU0TWY1HU6se0KVyW4vbjEexqRVrYnm8BHaV23EhphqoPB%2BE%2FRLOWtszvfg9fAY%2FGBiGOXEM6kik%2FQEy4DmvphDUglh4fpyqJY4kcNF3nIq3KQdTiDfQrvuCczwsQRH0m6luMpdoAktalKgTi%2B0kXwraWoUWvDEvyXzv2j%2F%2BMXHoXOuRSAtfn3McCiQImbG9ChHw%3D%3D">
+            Verify
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<div class="divider" style="background:linear-gradient(90deg,transparent,rgba(16,185,129,.18),transparent)"></div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-wrap">
+    <div class="reveal" style="text-align:center;margin-bottom:28px">
+      <div class="section-tag">07. CONTACT</div>
+      <h2 class="section-title" style="margin-bottom:20px">Let's <span style="background:linear-gradient(135deg,#00d4ff,#10b981);-webkit-background-clip:text;-webkit-text-fill-color:transparent">Connect</span></h2>
+      <p class="contact-sub">Open to new opportunities in DevOps, Cloud Engineering, and infrastructure automation.</p>
+    </div>
+    <div class="contact-grid">
+      <a class="contact-card d1 reveal" href="tel:+919652665280" style="--hc:#10b981">
+        <div class="contact-icon-wrap" style="background:rgba(16,185,129,.12);border:1px solid rgba(16,185,129,.25);color:#10b981">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14v2.92z"/></svg>
+        </div>
+        <div><div class="contact-label">Phone</div><div class="contact-val">+91 9652665280</div></div>
+      </a>
+      <a class="contact-card d2 reveal" href="mailto:kranthikiran833@gmail.com" style="--hc:#00d4ff">
+        <div class="contact-icon-wrap" style="background:rgba(0,212,255,.12);border:1px solid rgba(0,212,255,.25);color:#00d4ff">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </div>
+        <div><div class="contact-label">Email</div><div class="contact-val">kranthikiran833@gmail.com</div></div>
+      </a>
+      <a class="contact-card d3 reveal" href="https://www.linkedin.com/in/suryakranthikiran" target="_blank" style="--hc:#7c3aed">
+        <div class="contact-icon-wrap" style="background:rgba(124,58,237,.12);border:1px solid rgba(124,58,237,.25);color:#7c3aed">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 6a2 2 0 100-4 2 2 0 000 4z"/></svg>
+        </div>
+        <div><div class="contact-label">LinkedIn</div><div class="contact-val">suryakranthikiran</div></div>
+      </a>
+      <a class="contact-card d4 reveal" href="https://github.com/suryakranthikiran" target="_blank" style="--hc:#f0f4ff">
+        <div class="contact-icon-wrap" style="background:rgba(240,244,255,.08);border:1px solid rgba(240,244,255,.2);color:#f0f4ff">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.341-3.369-1.341-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.579.688.481C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+        </div>
+        <div><div class="contact-label">GitHub</div><div class="contact-val">suryakranthikiran</div></div>
+      </a>
+      <a class="contact-card d5 reveal" href="https://leetcode.com/u/Suryakranthikiran/" target="_blank" style="--hc:#f89f1b">
+        <div class="contact-icon-wrap" style="background:rgba(248,159,27,.12);border:1px solid rgba(248,159,27,.28);color:#f89f1b">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 7.5L20 11l-3.5 3.5"/><path d="M20 11H9"/><path d="M12 4.5L6.5 10a2.12 2.12 0 000 3L12 18.5"/></svg>
+        </div>
+        <div><div class="contact-label">LeetCode</div><div class="contact-val">Suryakranthikiran</div></div>
+      </a>
+    </div>
+    <div class="cta-center">
+      <a class="cta-btn" href="mailto:kranthikiran833@gmail.com">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Say Hello 👋
+      </a>
+    </div>
+    <div class="footer">
+      <div class="footer-line"></div>
+      <p class="footer-text">Designed &amp; Built by <span class="footer-hl">Surya Kranthi Kiran</span> • 2025</p>
+    </div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
